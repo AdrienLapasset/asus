@@ -1,18 +1,29 @@
 .c-btn {
+  font-size: 16px;
+  width: 100%;
   &.c-btn-primary {
-    padding: 20px 120px;
+    padding: 20px 60px;
+    max-width: 350px;
     background-color: $blue;
     color: white;
     border-radius: 20px;
+    box-shadow: 0px 1px 16px 0px #0000004d;
+    @include media-breakpoint-up($sm) {
+      padding: 20px 120px;
+    }
     img {
       vertical-align: baseline;
     }
   }
   &.c-btn-secondary {
-    padding: 15px 30px;
-    background-color: white;
+    padding: 5px 30px;
     color: $blue;
     border-radius: 10px;
     border: solid 2px $blue;
+    max-width: 170px;
+    display: block;
+    @include media-breakpoint-up($sm) {
+      display: none;
+    }
   }
 }

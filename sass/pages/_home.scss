@@ -1,4 +1,10 @@
 .home {
+  text-align: center;
+  justify-content: flex-start;
+  @include media-breakpoint-up($sm) {
+    justify-content: center;
+    text-align: start;
+  }
   h1 {
     font-weight: 900;
     font-size: 60px;
@@ -12,10 +18,10 @@
     font-weight: 300;
     font-size: 22px;
     color: $black;
-    margin: 50px 0 20px;
+    margin-bottom: 20px;
     @include media-breakpoint-up($sm) {
       font-size: 34px;
-      margin: 0 0 10px;
+      margin-bottom: 10px;
     }
   }
   p {
@@ -23,6 +29,8 @@
     font-size: 18px;
     line-height: 25px;
     color: $black;
+    margin-bottom: 30px;
+    max-width: 360px;
     @include media-breakpoint-up($sm) {
       font-size: 20px;
     }
