@@ -1,9 +1,21 @@
 header {
-  height: 100px;
-  display: flex;
-  align-items: center;
-
-  .brand-logo {
+  .container {   
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .brand-logo-desktop {
     width: 318px;
+    display: none;
+    @include media-breakpoint-up($md) {
+      display: block;
+    }
+  }
+  .brand-logo-small {
+    width: 106px;
+    @include media-breakpoint-up($md) {
+      display: none;
+    }
   }
 }
