@@ -6,7 +6,7 @@
     <h1>BACK TO WORK</h1>
     <p>Remportez un maximum de cadeaux pour<br>
       la rentrée avec ASUS Business</p>
-    <button class="c-btn c-btn-primary">Je participe ➔</button>
+    <button class="c-btn c-btn-primary">Je participe <img src="assets/icons/arrow.svg" alt="arrow"></button>
   </div>
 </main>
 

@@ -4,6 +4,9 @@
     background-color: $blue;
     color: white;
     border-radius: 20px;
+    img {
+      vertical-align: baseline;
+    }
   }
   &.c-btn-secondary {
     padding: 15px 30px;
