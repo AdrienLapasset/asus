@@ -1,6 +1,30 @@
 .home {
   h1 {
     font-weight: 900;
-    font-size: 80px;
+    font-size: 60px;
+    color: #1986d9;
+    margin-bottom: 10px;
+    @include media-breakpoint-up($sm) {
+      font-size: 80px;
+    }
+  }
+  h2 {
+    font-weight: 300;
+    font-size: 22px;
+    color: $black;
+    margin: 50px 0 20px;
+    @include media-breakpoint-up($sm) {
+      font-size: 34px;
+      margin: 0 0 10px;
+    }
+  }
+  p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: $black;
+    @include media-breakpoint-up($sm) {
+      font-size: 20px;
+    }
   }
 }
