@@ -1,0 +1,14 @@
+.c-btn {
+  padding: 20px 120px;
+  &.c-btn-primary {
+    background-color: $blue;
+    color: white;
+    border-radius: 20px;
+  }
+  &.c-btn-secondary {
+    background-color: white;
+    color: $blue;
+    border-radius: 10px;
+    border: solid 2px $blue;
+  }
+}
