@@ -6,7 +6,7 @@ function includeHeader($page)
 includeHeader('participer')
 ?>
 
-<?php include("partials/header-home.php"); ?>
+<?php include("partials/header-compte.php"); ?>
 
 <main class="participer">
   <div class="container">
