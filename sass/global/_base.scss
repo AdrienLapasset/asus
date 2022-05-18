@@ -1,35 +1,22 @@
-@font-face {
-  font-family: "Brandon medium";
-  src: url("../assets/fonts/BRANDON/Brandon_med.otf");
-}
-@font-face {
-  font-family: "Burbank bold";
-  src: url("../assets/fonts/BURBANK/BurbankBigCondensed-Bold.otf");
-}
-
 body {
   overflow-x: hidden;
   font-family: "Brandon medium", sans-serif;
   font-size: 17px;
   font-weight: 400;
   color: $blue;
-  min-height: 100vh;
-  background-image: url("../assets/imgs/background.jpg");
+  background-image: url("../assets/imgs/bg-home.jpg");
   background-size: cover;
   background-position: left center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  &.mentions {
-    background-image: url("../assets/imgs/bg-mentions.jpg");
-  }
 }
 
 main {
   padding: 0 15px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 100px);
 }
 
 a {

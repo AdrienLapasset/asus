@@ -12,6 +12,8 @@ $lg: 992px;
 $xl: 1200px;
 $xxl: 1400px;
 
+$headerHeight: 100px;
+
 // Media breakpoints mixin
 @mixin media-breakpoint-up($breakpoints) {
   @media (min-width: $breakpoints) {
