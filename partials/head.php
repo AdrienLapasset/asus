@@ -15,17 +15,3 @@
 </head>
 
 <body class="<?php echo $bg ?>">
-  <header>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
-          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <img class="brand-logo" src="assets/logos/ASUS-Business.png" alt="">
-        </div>
-      </div>
-    </nav>
-  </header>
