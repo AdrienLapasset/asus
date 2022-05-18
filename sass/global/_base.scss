@@ -9,6 +9,9 @@ body {
   background-position: left center;
   display: flex;
   flex-direction: column;
+  &.participer {
+    background-image: url("../assets/imgs/bg-participer.jpg");
+  }
 }
 
 main {
