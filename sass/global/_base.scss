@@ -4,11 +4,14 @@ body {
   font-size: 17px;
   font-weight: 400;
   color: $blue;
-  background-image: url("../assets/imgs/bg-home.jpg");
   background-size: cover;
-  background-position: left center;
+  background-position: center;
   display: flex;
   flex-direction: column;
+  @include media-breakpoint-up($md) {
+    background-image: url("../assets/imgs/bg-home.jpg");
+    background-position: left center;
+  }
   &.participer {
     background-image: url("../assets/imgs/bg-participer.jpg");
   }
