@@ -19,6 +19,20 @@ header {
     }
   }
 
+  &.header-home {
+    .c-btn-primary {
+      padding: 5px 30px;
+      color: $blue;
+      border-radius: 10px;
+      border: solid 2px $blue;
+      max-width: 170px;
+      display: block;
+      @include media-breakpoint-up($sm) {
+        display: none;
+      }
+    }
+  }
+
   &.header-compte {
     .logo-container {
       display: flex;
