@@ -1,4 +1,5 @@
-<?php include("partials/header.php"); ?>
+<?php include("partials/head.php"); ?>
+<?php include("partials/header-home.php"); ?>
 
 <main class="home">
   <div class="container">

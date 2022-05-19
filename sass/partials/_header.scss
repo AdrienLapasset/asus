@@ -1,7 +1,38 @@
 header {
-  height: 100px;
-  
-  .brand-logo {
+  .container {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .brand-logo-desktop {
     width: 318px;
+    display: none;
+    @include media-breakpoint-up($md) {
+      display: block;
+    }
+  }
+  .brand-logo-small {
+    width: 106px;
+    @include media-breakpoint-up($md) {
+      display: none;
+    }
+  }
+
+  &.header-compte {
+    .logo-container {
+      display: flex;
+      align-items: center;
+      @include media-breakpoint-up($md) {
+        display: block;
+      }
+    }
+    .brand-logo-desktop {
+      width: 204px;
+    }
+    .brand-logo-small {
+      width: 106px;
+      margin-right: 15px;
+    }
   }
 }
