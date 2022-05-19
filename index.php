@@ -6,6 +6,7 @@
     <div class="list-group">
       <a class="list-group-item list-group-item-action" href="home.php">Home</a>
       <a class="list-group-item list-group-item-action" href="participer.php">Participer</a>
+      <a class="list-group-item list-group-item-action" href="accueil.php">Accueil</a>
     </div>
   </div>
 </div>

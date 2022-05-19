@@ -49,4 +49,18 @@ header {
       margin-right: 15px;
     }
   }
+
+  &.header-menu {
+    .brand-logo-desktop {
+      width: 204px;
+    }
+    .brand-logo-small {
+      width: 106px;
+      margin-right: 15px;
+    }
+    .navbar-nav {
+      display: flex;
+      align-items: center;
+    }
+  }
 }
