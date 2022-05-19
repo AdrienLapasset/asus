@@ -10,11 +10,17 @@ includeHeader('participer')
 
 <main class="participer">
   <div class="container">
-    <h2>Partner Incentive</h2>
-    <h1>BACK TO WORK</h1>
-    <p>Remportez un maximum de cadeaux pour<br>
-      la rentrée avec ASUS Business</p>
-    <button class="c-btn c-btn-primary">Je participe ➔</button>
+    <form class="g-form" action="">
+      <div class="input-container">
+        <input type="text" placeholder="Nom">
+        <img src="assets/icons/pen.svg" alt="">
+      </div>
+      <div class="input-container">
+        <input type="text" placeholder="Prénom">
+        <img src="assets/icons/pen.svg" alt="">
+      </div>
+      <button class="c-btn c-btn-primary">Je participe ➔</button>
+    </form>
   </div>
 </main>
 
