@@ -21,14 +21,19 @@ header {
 
   &.header-home {
     .c-btn-primary {
-      padding: 5px 30px;
+      padding: 10px 30px;
       color: $blue;
       border-radius: 10px;
       border: solid 2px $blue;
       max-width: 170px;
-      display: block;
+      background-color: white;
       @include media-breakpoint-up($sm) {
-        display: none;
+        padding: 15px 60px;
+        max-width: 205px;
+        background-color: $blue;
+        color: white;
+        border-radius: 20px;
+        box-shadow: 0px 1px 16px 0px #0000004d;
       }
     }
   }

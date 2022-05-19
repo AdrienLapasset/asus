@@ -23,6 +23,7 @@ main {
 
 a {
   color: $blue;
+  text-decoration: none;
   &:hover {
     color: $blue;
   }
