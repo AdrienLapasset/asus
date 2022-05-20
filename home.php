@@ -1,7 +1,7 @@
 <?php include("partials/head.php"); ?>
 <?php include("partials/header-home.php"); ?>
 
-<main class="home">
+<main class="home content-center">
   <div class="container">
     <h2>Partner Incentive</h2>
     <h1>BACK TO WORK</h1>

@@ -8,7 +8,7 @@ includeHeader('participer')
 
 <?php include("partials/header-compte.php"); ?>
 
-<main class="participer">
+<main class="participer content-center">
   <div class="container">
     <form class="g-form" action="">
       <div class="input-container">

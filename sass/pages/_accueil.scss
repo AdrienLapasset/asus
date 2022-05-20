@@ -1,0 +1,75 @@
+.accueil {
+  .right-col {
+    flex: 0 0 50%;
+  }
+  .left-col {
+    flex: 0 0 50%;
+  }
+  .cadeaux-container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 1px 16px rgba(0, 0, 0, 0.3);
+    background: #54a4f510;
+    border-radius: 20px 20px 0px 0px;
+    padding: 0 50px;
+    position: relative;
+  }
+  .cadeau-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+  }
+  .points {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: right;
+    @include media-breakpoint-up($xl) {
+      flex: 0 0 100px;
+    }
+    @include media-breakpoint-up($xxl) {
+      flex: 0 0 200px;
+    }
+  }
+  .dot {
+    width: 18px;
+    height: 18px;
+    border-radius: 18px;
+    background: #12568c30;
+    margin: 0 30px;
+    &.dark {
+      background: #12568c;
+    }
+  }
+  .cadeau {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    @include media-breakpoint-up($xl) {
+      flex: 0 0 100px;
+    }
+    @include media-breakpoint-up($xxl) {
+      flex: 0 0 200px;
+    }
+    img {
+      width: 100px;
+    }
+    aside {
+      font-size: 14px;
+    }
+  }
+  .progress-bar {
+    position: absolute;
+    height: 100%;
+    width: 36px;
+    background-color: #54a4f540;
+    left: calc(50% - 18px);
+    z-index: -1;
+    .progress {
+      width: 100%;
+      background-color: #54a4f5;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}
