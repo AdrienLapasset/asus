@@ -1,9 +1,18 @@
 .accueil {
-  .right-col {
-    flex: 0 0 50%;
-  }
   .left-col {
     flex: 0 0 50%;
+    img {
+      position: absolute;
+      width: 50%;
+      bottom: 0;
+    }
+  }
+  .right-col {
+    flex: 0 0 50%;
+    padding-right: 50px;
+  }
+  .text-container {
+    padding: 50px;
   }
   .cadeaux-container {
     display: flex;
