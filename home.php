@@ -6,7 +6,7 @@
     <h2>Partner Incentive</h2>
     <h1>BACK TO WORK</h1>
     <p>Remportez un maximum de cadeaux pour la rentrée avec ASUS Business</p>
-    <button class="c-btn c-btn-primary">Je participe <img src="assets/icons/arrow.svg" alt="arrow"></button>
+    <a class="c-btn c-btn-primary">Je participe <img src="assets/icons/arrow.svg" alt="arrow"></a>
   </div>
 </main>
 

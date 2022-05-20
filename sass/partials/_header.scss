@@ -27,6 +27,7 @@ header {
       border: solid 2px $blue;
       max-width: 170px;
       background-color: white;
+      box-shadow: none;
       @include media-breakpoint-up($md) {
         padding: 15px 60px;
         max-width: 205px;

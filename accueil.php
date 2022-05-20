@@ -10,7 +10,7 @@ includeHeader('accueil')
 
 <main class="participer">
   <div class="container">
-    <form class="g-form" action="">
+    <form class="c-form" action="">
       <div class="input-container">
         <input type="text" placeholder="Nom">
         <img src="assets/icons/pen.svg" alt="">
