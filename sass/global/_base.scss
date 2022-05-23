@@ -9,8 +9,10 @@ body {
   display: flex;
   flex-direction: column;
   @include media-breakpoint-up($md) {
-    background-image: url("../assets/imgs/bg-home.jpg");
     background-position: left center;
+    &.home {
+      background-image: url("../assets/imgs/bg-home.jpg");
+    }
     &.participer {
       background-image: url("../assets/imgs/bg-participer.jpg");
     }

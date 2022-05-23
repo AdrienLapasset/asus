@@ -1,4 +1,10 @@
-<?php include("partials/head.php"); ?>
+<?php
+function includeHeader($page)
+{
+  include("partials/head.php");
+}
+includeHeader('home')
+?>
 <?php include("partials/header-home.php"); ?>
 
 <main class="home content-center">

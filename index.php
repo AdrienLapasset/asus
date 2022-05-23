@@ -9,6 +9,7 @@
       <a class="list-group-item list-group-item-action" href="accueil.php">Accueil</a>
       <a class="list-group-item list-group-item-action" href="reinitialisation-mdp-1.php">reinitialisation-mdp-1</a>
       <a class="list-group-item list-group-item-action" href="reinitialisation-mdp-2.php">reinitialisation-mdp-2</a>
+      <a class="list-group-item list-group-item-action" href="comment-participer.php">comment-participer</a>
     </div>
   </div>
 </div>
