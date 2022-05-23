@@ -11,15 +11,15 @@ body {
   @include media-breakpoint-up($md) {
     background-image: url("../assets/imgs/bg-home.jpg");
     background-position: left center;
-  }
-  &.participer {
-    background-image: url("../assets/imgs/bg-participer.jpg");
-  }
-  &.reinitialisation-mdp {
-    background-image: url("../assets/imgs/bg-reinitialisation-mdp.jpg");
-  }
-  &.accueil {
-    background-image: none;
+    &.participer {
+      background-image: url("../assets/imgs/bg-participer.jpg");
+    }
+    &.reinitialisation-mdp {
+      background-image: url("../assets/imgs/bg-reinitialisation-mdp.jpg");
+    }
+    &.accueil {
+      background-image: none;
+    }
   }
 }
 
