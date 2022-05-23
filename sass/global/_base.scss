@@ -15,8 +15,8 @@ body {
   &.participer {
     background-image: url("../assets/imgs/bg-participer.jpg");
   }
-  &.reinitialisation-mdp-1 {
-    background-image: url("../assets/imgs/bg-reinitialisation-mdp-1.jpg");
+  &.reinitialisation-mdp {
+    background-image: url("../assets/imgs/bg-reinitialisation-mdp.jpg");
   }
   &.accueil {
     background-image: none;
@@ -28,7 +28,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 200px);
   }
 }
 

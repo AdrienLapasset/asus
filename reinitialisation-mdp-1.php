@@ -3,12 +3,12 @@ function includeHeader($page)
 {
   include("partials/head.php");
 }
-includeHeader('reinitialisation-mdp-1')
+includeHeader('reinitialisation-mdp')
 ?>
 
 <?php include("partials/header-compte.php"); ?>
 
-<main class="reinitialisation-mdp-1 content-center">
+<main class="reinitialisation-mdp content-center">
   <div class="container">
     <h1 class="c-title">
       <span class="blue-text">Réinitialisation<br></span>
