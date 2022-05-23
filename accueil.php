@@ -9,81 +9,81 @@ includeHeader('accueil')
 <?php include("partials/header-menu.php"); ?>
 
 <main class="acceuil">
+  <div class="container">
 
-  <!-- Desktop Layout -->
-  <div class="desktop">
-    <div class="left-col">
-      <div class="text-container">
-        <h1>Bonjour Alexandre!</h1>
-        <p>Il vous reste à cumuler 50 points avant de débloquer votre prochain cadeau ! </p>
-        <a class="c-btn c-btn-primary">Enregistrer une nouvelle action</a>
+    <!-- Desktop Layout -->
+    <div class="desktop">
+      <div class="left-col">
+        <div class="text-container">
+          <h1>Bonjour Alexandre!</h1>
+          <p>Il vous reste à cumuler 50 points avant de débloquer votre prochain cadeau ! </p>
+          <a class="c-btn c-btn-primary">Enregistrer une nouvelle action</a>
+        </div>
+        <img class="img-fluid" src="assets/imgs/accueil.jpg" alt="">
       </div>
-      <img class="img-fluid" src="assets/imgs/accueil.jpg" alt="">
-    </div>
-    <div class="right-col">
-      <div class="cadeaux-container">
-        <div class="cadeau-container">
-          <div class="points">
-            1000 points
+      <div class="right-col">
+        <div class="cadeaux-container">
+          <div class="cadeau-container">
+            <div class="points">
+              1000 points
+            </div>
+            <div class="dot"></div>
+            <div class="cadeau"></div>
           </div>
-          <div class="dot"></div>
-          <div class="cadeau"></div>
-        </div>
-        <div class="cadeau-container">
-          <div class="points">
-            750 points
+          <div class="cadeau-container">
+            <div class="points">
+              750 points
+            </div>
+            <div class="dot"></div>
+            <div class="cadeau">
+              <img src="assets/imgs/carte-cadeau.png" alt="">
+              Ordinateur portable ASUS
+              <aside>Encore 5 produits disponibles</aside>
+            </div>
           </div>
-          <div class="dot"></div>
-          <div class="cadeau">
-            <img src="assets/imgs/carte-cadeau.png" alt="">
-            Ordinateur portable ASUS
-            <aside>Encore 5 produits disponibles</aside>
+          <div class="cadeau-container">
+            <div class="points">
+              750 points
+            </div>
+            <div class="dot dark"></div>
+            <div class="cadeau">
+              <img src="assets/imgs/carte-cadeau.png" alt="">
+              Ordinateur portable ASUS
+              <aside>Encore 5 produits disponibles</aside>
+            </div>
           </div>
-        </div>
-        <div class="cadeau-container">
-          <div class="points">
-            750 points
+          <div class="cadeau-container">
+            <div class="points">
+              750 points
+            </div>
+            <div class="dot dark"></div>
+            <div class="cadeau">
+              <img src="assets/imgs/carte-cadeau.png" alt="">
+              Ordinateur portable ASUS
+              <aside>Encore 5 produits disponibles</aside>
+            </div>
           </div>
-          <div class="dot dark"></div>
-          <div class="cadeau">
-            <img src="assets/imgs/carte-cadeau.png" alt="">
-            Ordinateur portable ASUS
-            <aside>Encore 5 produits disponibles</aside>
+          <div class="cadeau-container">
+            <div class="points">
+              750 points
+            </div>
+            <div class="dot dark"></div>
+            <div class="cadeau">
+              <img src="assets/imgs/carte-cadeau.png" alt="">
+              Ordinateur portable ASUS
+              <aside>Encore 5 produits disponibles</aside>
+            </div>
           </div>
-        </div>
-        <div class="cadeau-container">
-          <div class="points">
-            750 points
+          <div class="progress-bar">
+            <!-- Progress = style="height: 'progress'%" -->
+            <div class="progress" style="height: 68%"></div>
           </div>
-          <div class="dot dark"></div>
-          <div class="cadeau">
-            <img src="assets/imgs/carte-cadeau.png" alt="">
-            Ordinateur portable ASUS
-            <aside>Encore 5 produits disponibles</aside>
-          </div>
-        </div>
-        <div class="cadeau-container">
-          <div class="points">
-            750 points
-          </div>
-          <div class="dot dark"></div>
-          <div class="cadeau">
-            <img src="assets/imgs/carte-cadeau.png" alt="">
-            Ordinateur portable ASUS
-            <aside>Encore 5 produits disponibles</aside>
-          </div>
-        </div>
-        <div class="progress-bar">
-          <!-- Progress = style="height: 'progress'%" -->
-          <div class="progress" style="height: 68%"></div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Mobile Layout -->
-  <div class="mobile">
-    <div class="container">
+    <!-- Mobile Layout -->
+    <div class="mobile">
       <h1>Bonjour Alexandre!</h1>
       <p>Il vous reste à cumuler 50 points avant de débloquer votre prochain cadeau ! </p>
       <div class="progress-container">
@@ -165,8 +165,8 @@ includeHeader('accueil')
         250 pts
       </div>
       <a class="c-btn c-btn-primary mt-5">Enregistrer une nouvelle action</a>
+      <img src="assets/imgs/bg-home-mobile.jpg" alt="">
     </div>
-    <img class="img-fluid w-100" src="assets/imgs/bg-home-mobile.jpg" alt="">
   </div>
 
 </main>

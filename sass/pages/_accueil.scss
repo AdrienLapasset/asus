@@ -1,24 +1,24 @@
 .accueil {
+  position: relative;
   .desktop {
     display: none;
-    position: relative;
     @include media-breakpoint-up($lg) {
       display: flex;
     }
     .left-col {
       flex: 0 0 50%;
-      img {
+      > img {
         position: absolute;
         width: 50%;
         bottom: 0;
+        left: 0;
       }
     }
     .right-col {
       flex: 0 0 50%;
-      padding-right: 50px;
     }
     .text-container {
-      padding: 50px;
+      padding: 100px 50px 0 0;
     }
     .cadeaux-container {
       display: flex;
@@ -89,6 +89,11 @@
   .mobile {
     @include media-breakpoint-up($lg) {
       display: none;
+    }
+    > img {
+      position: absolute;
+      left: 0;
+      width: 100%;
     }
     .progress-container {
       background: #54a4f510;
