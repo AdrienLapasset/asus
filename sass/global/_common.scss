@@ -8,16 +8,19 @@
   height: 60px;
   align-items: center;
   justify-content: center;
+  border-radius: 20px;
   &.c-btn-primary {
     background-color: $blue;
     color: white;
-    border-radius: 20px;
     box-shadow: 0px 1px 16px 0px #0000004d;
-    @include media-breakpoint-up($sm) {
-    }
     img {
       vertical-align: baseline;
     }
+  }
+  &.c-btn-secondary {
+    color: $blue;
+    border: solid 2px $blue;
+    background-color: transparent;
   }
 }
 
@@ -80,6 +83,56 @@
     background-position-x: 180px;
     background-position-y: 8px;
     color: red;
+  }
+  .input-icon {
+    top: 23px;
+  }
+  .checkbox-container {
+    position: relative;
+    display: block;
+    padding-left: 27px;
+    margin-top: 15px;
+    margin: 0 30px 20px 20px;
+    color: $grey;
+    cursor: pointer;
+    line-height: 20px;
+    @include media-breakpoint-up($lg) {
+      align-self: center;
+    }
+    input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+      cursor: pointer;
+      &:checked ~ .checkmark {
+        border: 2px solid $blue;
+        &:after {
+          display: block;
+        }
+      }
+    }
+    .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 18px;
+      width: 18px;
+      border-radius: 2px;
+      border: 1px solid $light-grey;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:after {
+        content: "";
+        display: none;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: $blue;
+      }
+    }
   }
 }
 

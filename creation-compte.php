@@ -8,7 +8,7 @@ includeHeader('creation-compte')
 
 <?php include("partials/header-compte.php"); ?>
 
-<main class="creation-compte content-center">
+<main class="creation-compte">
   <div class="container">
     <h1 class="c-title">Création de compte</h1>
     <form class="c-form" action="">

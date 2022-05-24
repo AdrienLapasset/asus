@@ -26,7 +26,8 @@ body {
     &.reinitialisation-mdp {
       background-image: url("../assets/imgs/bg-reinitialisation-mdp.jpg");
     }
-    &.enregistrer-action {
+    &.enregistrer-action,
+    &.mes-coordonees {
       background-image: url("../assets/imgs/bg-action.jpg");
     }
   }
