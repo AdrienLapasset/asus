@@ -201,7 +201,8 @@ includeHeader('accueil')
       <div class="modal-content">
         <div class="modal-body">
           Êtes vous sure de vouloir commander cette dotation ? Attention si vous commander ce produit vous ne pourrez
-          plus participer pour tenter de débloquer une autre dotation. (Voir règlement de l’offre)
+          plus participer pour tenter de débloquer une autre dotation.
+          <a href="" class="text-blue">(Voir règlement de l’offre)</a>
         </div>
         <div class="modal-footer">
           <button type="button" class="c-btn c-btn-primary">Valider ma commande</button>
