@@ -15,9 +15,9 @@ includeHeader('accueil')
     <div class="desktop">
       <div class="left-col">
         <div class="text-container">
-          <h1>Bonjour Alexandre!</h1>
-          <p>Il vous reste à cumuler 50 points avant de débloquer votre prochain cadeau ! </p>
-          <a class="c-btn c-btn-primary">Enregistrer une nouvelle action</a>
+          <h1 class="c-title">Bonjour Alexandre!</h1>
+          <p>Il vous reste à cumuler <b class="blue-text"> 50 points</b> avant de débloquer votre prochain cadeau ! </p>
+          <a class="c-btn c-btn-primary">Enregirstrer une nouvelle action <img class="ms-2" src="assets/icons/arrow.svg" alt="arrow"></a>
         </div>
         <img class="img-fluid" src="assets/imgs/accueil.jpg" alt="">
       </div>
@@ -43,7 +43,7 @@ includeHeader('accueil')
           </div>
           <div class="cadeau-container">
             <div class="points">
-              750 points
+              500 points
             </div>
             <div class="dot dark"></div>
             <div class="cadeau">
@@ -54,7 +54,7 @@ includeHeader('accueil')
           </div>
           <div class="cadeau-container">
             <div class="points">
-              750 points
+              250 points
             </div>
             <div class="dot dark"></div>
             <div class="cadeau">
@@ -65,7 +65,7 @@ includeHeader('accueil')
           </div>
           <div class="cadeau-container">
             <div class="points">
-              750 points
+              150 points
             </div>
             <div class="dot dark"></div>
             <div class="cadeau">
@@ -84,8 +84,8 @@ includeHeader('accueil')
 
     <!-- Mobile Layout -->
     <div class="mobile">
-      <h1>Bonjour Alexandre!</h1>
-      <p>Il vous reste à cumuler 50 points avant de débloquer votre prochain cadeau ! </p>
+      <h1 class="c-title">Bonjour Alexandre!</h1>
+      <p>Il vous reste à cumuler <b class="blue-text"> 50 points</b> avant de débloquer votre prochain cadeau ! </p>
       <div class="progress-container">
         <div class="votre-niveau-container" style="left: 68%;">
           <!-- Progress = style="left: 'progress'%" -->
@@ -164,7 +164,7 @@ includeHeader('accueil')
         </div>
         250 pts
       </div>
-      <a class="c-btn c-btn-primary mt-5">Enregistrer une nouvelle action</a>
+      <a class="mt-5 c-btn c-btn-primary">Enregirstrer une nouvelle action <img class="ms-2" src="assets/icons/arrow.svg" alt="arrow"></a>
       <img src="assets/imgs/bg-home-mobile.jpg" alt="">
     </div>
   </div>
