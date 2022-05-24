@@ -22,7 +22,9 @@
 }
 
 .c-form {
-  max-width: 550px;
+  @include media-breakpoint-up($lg) {
+    max-width: 550px;
+  }
   .input-container {
     position: relative;
   }

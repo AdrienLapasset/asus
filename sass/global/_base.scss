@@ -12,23 +12,23 @@ body {
   flex-direction: column;
   @include media-breakpoint-up($lg) {
     background-position: left center;
-  }
-  &.participer,
-  &.connexion,
-  &.creation-compte {
-    background-image: url("../assets/imgs/bg-login.jpg");
-  }
-  &.reinitialisation-mdp {
-    background-image: url("../assets/imgs/bg-reinitialisation-mdp.jpg");
-  }
-  &.home {
-    background-image: url("../assets/imgs/bg-home.jpg");
-  }
-  &.reinitialisation-mdp {
-    background-image: url("../assets/imgs/bg-reinitialisation-mdp.jpg");
-  }
-  &.enregistrer-action {
-    background-image: url("../assets/imgs/bg-action.jpg");
+    &.participer,
+    &.connexion,
+    &.creation-compte {
+      background-image: url("../assets/imgs/bg-login.jpg");
+    }
+    &.reinitialisation-mdp {
+      background-image: url("../assets/imgs/bg-reinitialisation-mdp.jpg");
+    }
+    &.home {
+      background-image: url("../assets/imgs/bg-home.jpg");
+    }
+    &.reinitialisation-mdp {
+      background-image: url("../assets/imgs/bg-reinitialisation-mdp.jpg");
+    }
+    &.enregistrer-action {
+      background-image: url("../assets/imgs/bg-action.jpg");
+    }
   }
 }
 
@@ -37,7 +37,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: calc(100vh - 200px);
+    min-height: calc(100vh - 200px);
   }
 }
 
