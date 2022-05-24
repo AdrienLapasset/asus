@@ -12,8 +12,10 @@ body {
     background-image: url("../assets/imgs/bg-home.jpg");
     background-position: left center;
   }
-  &.participer {
-    background-image: url("../assets/imgs/bg-participer.jpg");
+  &.participer,
+  &.connexion,
+  &.creation-compte {
+    background-image: url("../assets/imgs/bg-login.jpg");
   }
   &.reinitialisation-mdp {
     background-image: url("../assets/imgs/bg-reinitialisation-mdp.jpg");
@@ -35,6 +37,7 @@ main {
 a {
   color: $blue;
   text-decoration: none;
+  cursor: pointer;
   &:hover {
     color: $blue;
   }
