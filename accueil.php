@@ -17,7 +17,8 @@ includeHeader('accueil')
         <div class="text-container">
           <h1 class="c-title">Bonjour Alexandre!</h1>
           <p>Il vous reste à cumuler <b class="blue-text"> 50 points</b> avant de débloquer votre prochain cadeau ! </p>
-          <a class="c-btn c-btn-primary">Enregirstrer une nouvelle action <img class="ms-2" src="assets/icons/arrow.svg" alt="arrow"></a>
+          <a class="c-btn c-btn-primary">Enregirstrer une nouvelle action <img class="ms-2" src="assets/icons/arrow.svg"
+              alt="arrow"></a>
         </div>
         <img class="img-fluid" src="assets/imgs/accueil.jpg" alt="">
       </div>
@@ -39,6 +40,9 @@ includeHeader('accueil')
               <img src="assets/imgs/carte-cadeau.png" alt="">
               Ordinateur portable ASUS
               <aside>Encore 5 produits disponibles</aside>
+              <button type="button" class="" data-bs-toggle="modal" data-bs-target="#commander">
+                Commander
+              </button>
             </div>
           </div>
           <div class="cadeau-container">
@@ -50,6 +54,9 @@ includeHeader('accueil')
               <img src="assets/imgs/carte-cadeau.png" alt="">
               Ordinateur portable ASUS
               <aside>Encore 5 produits disponibles</aside>
+              <button type="button" class="" data-bs-toggle="modal" data-bs-target="#commander">
+                Commander
+              </button>
             </div>
           </div>
           <div class="cadeau-container">
@@ -61,6 +68,9 @@ includeHeader('accueil')
               <img src="assets/imgs/carte-cadeau.png" alt="">
               Ordinateur portable ASUS
               <aside>Encore 5 produits disponibles</aside>
+              <button type="button" class="" data-bs-toggle="modal" data-bs-target="#commander">
+                Commander
+              </button>
             </div>
           </div>
           <div class="cadeau-container">
@@ -72,6 +82,9 @@ includeHeader('accueil')
               <img src="assets/imgs/carte-cadeau.png" alt="">
               Ordinateur portable ASUS
               <aside>Encore 5 produits disponibles</aside>
+              <button type="button" class="" data-bs-toggle="modal" data-bs-target="#commander">
+                Commander
+              </button>
             </div>
           </div>
           <div class="progress-bar">
@@ -122,6 +135,9 @@ includeHeader('accueil')
           <div class="disponible">
             Encore 5 produits disponibles
           </div>
+          <button type="button" class="" data-bs-toggle="modal" data-bs-target="#commander">
+            Commander
+          </button>
         </div>
         <div class="cadeau-img">
           <img class="img-fluid" src="assets/imgs/carte-cadeau.png" alt="">
@@ -134,6 +150,9 @@ includeHeader('accueil')
           <div class="disponible">
             Encore 5 produits disponibles
           </div>
+          <button type="button" class="" data-bs-toggle="modal" data-bs-target="#commander">
+            Commander
+          </button>
         </div>
         <div class="cadeau-img">
           <img class="img-fluid" src="assets/imgs/carte-cadeau.png" alt="">
@@ -146,6 +165,9 @@ includeHeader('accueil')
           <div class="disponible">
             Encore 5 produits disponibles
           </div>
+          <button type="button" class="" data-bs-toggle="modal" data-bs-target="#commander">
+            Commander
+          </button>
         </div>
         <div class="cadeau-img">
           <img class="img-fluid" src="assets/imgs/carte-cadeau.png" alt="">
@@ -158,16 +180,38 @@ includeHeader('accueil')
           <div class="disponible">
             Encore 5 produits disponibles
           </div>
+          <button type="button" class="" data-bs-toggle="modal" data-bs-target="#commander">
+            Commander
+          </button>
         </div>
         <div class="cadeau-img">
           <img class="img-fluid" src="assets/imgs/carte-cadeau.png" alt="">
         </div>
         250 pts
       </div>
-      <a class="mt-5 c-btn c-btn-primary">Enregirstrer une nouvelle action <img class="ms-2" src="assets/icons/arrow.svg" alt="arrow"></a>
+      <a class="mt-5 c-btn c-btn-primary">Enregirstrer une nouvelle action <img class="ms-2"
+          src="assets/icons/arrow.svg" alt="arrow"></a>
       <img src="assets/imgs/bg-home-mobile.jpg" alt="">
     </div>
   </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="commander" tabindex="-1" aria-labelledby="commander" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          Êtes vous sure de vouloir commander cette dotation ? Attention si vous commander ce produit vous ne pourrez
+          plus participer pour tenter de débloquer une autre dotation.
+          <a href="" class="text-blue">(Voir règlement de l’offre)</a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="c-btn c-btn-primary">Valider ma commande</button>
+          <button type="button" class="c-btn c-btn-secondary" data-bs-dismiss="modal">Annuler</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
 </main>
 

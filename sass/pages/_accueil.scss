@@ -71,12 +71,17 @@
       display: flex;
       flex-direction: column;
       font-size: 16px;
-
       img {
         width: 100px;
       }
       aside {
         font-size: 14px;
+      }
+      button {
+        text-align: left;
+        padding: 0;
+        color: $blue;
+        width: fit-content;
       }
     }
     .progress-bar {
@@ -193,6 +198,13 @@
       }
       .disponible {
         font-size: 10px;
+      }
+      button {
+        text-align: left;
+        padding: 0;
+        color: $blue;
+        width: fit-content;
+        font-size: 14px;
       }
     }
   }
