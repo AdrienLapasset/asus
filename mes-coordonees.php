@@ -80,7 +80,7 @@ includeHeader('mes-coordonees')
             <input type="password" placeholder="Mot de passe*">
           </div>
           <button type="submit" class="c-btn c-btn-secondary">Modifier mes informations<img class="ms-2"
-              src="assets/icons/arrow.svg" alt="arrow"></button>
+              src="assets/icons/arrow-blue.svg" alt="arrow-blue"></button>
         </form>
         <a class="mt-3 mb-5 c-btn c-btn-primary">Enregirstrer une nouvelle action<img class="ms-2"
             src="assets/icons/arrow.svg" alt="arrow"></a>

@@ -13,6 +13,7 @@
       <a class="list-group-item list-group-item-action" href="enregistrer-action.php">Enregistrer action</a>
       <a class="list-group-item list-group-item-action" href="creation-compte.php">Création de compte</a>
       <a class="list-group-item list-group-item-action" href="mes-coordonees.php">Mes coordonees</a>
+      <a class="list-group-item list-group-item-action" href="nouvelle-action.php">Nouvelle action</a>
     </div>
   </div>
 </div>
