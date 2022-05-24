@@ -11,6 +11,7 @@
       <a class="list-group-item list-group-item-action" href="reinitialisation-mdp-2.php">reinitialisation-mdp-2</a>
       <a class="list-group-item list-group-item-action" href="comment-participer.php">comment-participer</a>
       <a class="list-group-item list-group-item-action" href="enregistrer-action.php">enregistrer-action</a>
+      <a class="list-group-item list-group-item-action" href="creation-compte.php">Création de compte</a>
     </div>
   </div>
 </div>
