@@ -3,16 +3,17 @@
   font-weight: 700;
   width: 100%;
   text-align: center;
-  display: block;
+  display: flex;
   cursor: pointer;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
   &.c-btn-primary {
-    padding: 20px 60px;
     background-color: $blue;
     color: white;
     border-radius: 20px;
     box-shadow: 0px 1px 16px 0px #0000004d;
     @include media-breakpoint-up($sm) {
-      padding: 20px 120px;
     }
     img {
       vertical-align: baseline;
@@ -86,7 +87,7 @@
   color: $black;
   line-height: 40px;
   margin-bottom: 25px;
-  .blue-text {
-    color: $blue;
-  }
+}
+.blue-text {
+  color: $blue;
 }

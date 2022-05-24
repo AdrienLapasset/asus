@@ -74,7 +74,7 @@
     </div>
 
   </div>
-  <img class="d-lg-none w-100" src="assets/imgs/bg-home-mobile.jpg" alt="">
+  <img class="d-lg-none w-100 w-100" src="assets/imgs/bg-home-mobile.jpg" alt="">
 </main>
 
 <?php include 'partials/footer.php'; ?>

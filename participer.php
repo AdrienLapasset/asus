@@ -34,7 +34,7 @@ includeHeader('participer')
       <a class="c-btn c-btn-primary">Valider <img src="assets/icons/arrow.svg" alt="arrow"></a>
     </form>
   </div>
-  <img class="d-md-none" src="assets/imgs/bg-home-mobile.jpg" alt="">
+  <img class="d-lg-none w-100" src="assets/imgs/bg-home-mobile.jpg" alt="">
 </main>
 
 <?php include 'partials/footer.php'; ?>
