@@ -31,7 +31,7 @@ includeHeader('participer')
         <input type="text" placeholder="J’ai déjà un compte, je me connecte">
         <img src="assets/icons/pen.svg" alt="">
       </div>
-      <a class="c-btn c-btn-primary">Valider <img src="assets/icons/arrow.svg" alt="arrow"></a>
+      <a class="c-btn c-btn-primary">Valider <img class="ms-2" src="assets/icons/arrow.svg" alt="arrow"></a>
     </form>
   </div>
   <img class="d-lg-none w-100" src="assets/imgs/bg-login-mobile.jpg" alt="">

@@ -83,7 +83,7 @@ includeHeader('creation-compte')
         <input type="checkbox">
         <span class="checkmark"></span>
       </label>
-      <button type="submit" class="c-btn c-btn-primary mb-5">Valider <img src="assets/icons/arrow.svg"
+      <button type="submit" class="c-btn c-btn-primary mb-5">Valider <img class="ms-2" src="assets/icons/arrow.svg"
           alt="arrow"></button>
     </form>
   </div>

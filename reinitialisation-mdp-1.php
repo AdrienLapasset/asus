@@ -26,7 +26,7 @@ includeHeader('reinitialisation-mdp')
             stroke-linejoin="round" />
         </svg>
       </div>
-      <a class="c-btn c-btn-primary">Réinitialiser <img src="assets/icons/arrow.svg" alt="arrow"></a>
+      <a class="c-btn c-btn-primary">Réinitialiser <img class="ms-2" src="assets/icons/arrow.svg" alt="arrow"></a>
     </form>
   </div>
   <img class="d-lg-none w-100" src="assets/imgs/bg-reinitialisation-mdp-mobile.jpg" alt="">
