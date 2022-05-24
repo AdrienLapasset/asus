@@ -24,6 +24,7 @@ includeHeader('reinitialisation-mdp')
       <a class="c-btn c-btn-primary">Réinitialiser <img src="assets/icons/arrow.svg" alt="arrow"></a>
     </form>
   </div>
+  <img class="d-lg-none w-100" src="assets/imgs/bg-reinitialisation-mdp-mobile.jpg" alt="">
 </main>
 
 <?php include 'partials/footer.php'; ?>
