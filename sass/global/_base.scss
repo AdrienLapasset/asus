@@ -12,18 +12,24 @@ body {
   flex-direction: column;
   @include media-breakpoint-up($lg) {
     background-position: left center;
-    &.home {
-      background-image: url("../assets/imgs/bg-home.jpg");
-    }
-    &.participer {
-      background-image: url("../assets/imgs/bg-participer.jpg");
-    }
-    &.reinitialisation-mdp {
-      background-image: url("../assets/imgs/bg-reinitialisation-mdp.jpg");
-    }
-    &.enregistrer-action {
-      background-image: url("../assets/imgs/bg-action.jpg");
-    }
+  }
+  &.participer,
+  &.connexion,
+  &.creation-compte {
+    background-image: url("../assets/imgs/bg-login.jpg");
+  }
+  &.reinitialisation-mdp {
+    background-image: url("../assets/imgs/bg-reinitialisation-mdp.jpg");
+  }
+
+  &.home {
+    background-image: url("../assets/imgs/bg-home.jpg");
+  }
+  &.reinitialisation-mdp {
+    background-image: url("../assets/imgs/bg-reinitialisation-mdp.jpg");
+  }
+  &.enregistrer-action {
+    background-image: url("../assets/imgs/bg-action.jpg");
   }
 }
 
@@ -39,6 +45,7 @@ main {
 a {
   color: $blue;
   text-decoration: none;
+  cursor: pointer;
   &:hover {
     color: $blue;
   }
