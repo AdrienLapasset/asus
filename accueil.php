@@ -29,7 +29,14 @@ includeHeader('accueil')
               1000 points
             </div>
             <div class="dot"></div>
-            <div class="cadeau"></div>
+            <div class="cadeau">
+              <img src="assets/imgs/cadeaux/trottinette.jpg" alt="">
+              Trottinette électrique
+              <aside>Encore 5 produits disponibles</aside>
+              <button type="button" class="" data-bs-toggle="modal" data-bs-target="#commander">
+                Commander
+              </button>
+            </div>
           </div>
           <div class="cadeau-container">
             <div class="points">
@@ -37,8 +44,8 @@ includeHeader('accueil')
             </div>
             <div class="dot"></div>
             <div class="cadeau">
-              <img src="assets/imgs/carte-cadeau.png" alt="">
-              Ordinateur portable ASUS
+              <img src="assets/imgs/cadeaux/Zenscreen.png" alt="">
+              Ecran Zenscreen
               <aside>Encore 5 produits disponibles</aside>
               <button type="button" class="" data-bs-toggle="modal" data-bs-target="#commander">
                 Commander
@@ -51,8 +58,8 @@ includeHeader('accueil')
             </div>
             <div class="dot dark"></div>
             <div class="cadeau">
-              <img src="assets/imgs/carte-cadeau.png" alt="">
-              Ordinateur portable ASUS
+              <img src="assets/imgs/cadeaux/ecouteurs sans fil.jpg" alt="">
+              écouteurs sans fil
               <aside>Encore 5 produits disponibles</aside>
               <button type="button" class="" data-bs-toggle="modal" data-bs-target="#commander">
                 Commander
@@ -66,7 +73,7 @@ includeHeader('accueil')
             <div class="dot dark"></div>
             <div class="cadeau">
               <img src="assets/imgs/carte-cadeau.png" alt="">
-              Ordinateur portable ASUS
+              Carte cadeau 50€
               <aside>Encore 5 produits disponibles</aside>
               <button type="button" class="" data-bs-toggle="modal" data-bs-target="#commander">
                 Commander
@@ -80,7 +87,7 @@ includeHeader('accueil')
             <div class="dot dark"></div>
             <div class="cadeau">
               <img src="assets/imgs/carte-cadeau.png" alt="">
-              Ordinateur portable ASUS
+              Carte cadeau 50€
               <aside>Encore 5 produits disponibles</aside>
               <button type="button" class="" data-bs-toggle="modal" data-bs-target="#commander">
                 Commander

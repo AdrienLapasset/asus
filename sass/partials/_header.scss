@@ -84,6 +84,9 @@ header {
           @include media-breakpoint-up($lg) {
             text-align: left;
           }
+          &.active {
+            font-weight: 700;
+          }
         }
       }
     }
