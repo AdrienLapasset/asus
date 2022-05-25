@@ -56,8 +56,8 @@ includeHeader('mes-coordonees')
               </label>
             </div>
           </div>
-          <p class="blue-text d-lg-none mt-3">*Champs obligatoires </p>
-          <button type="submit" class="c-btn c-btn-primary mt-2">Enregirstrer<img class="ms-2"
+          <p class="blue-text d-lg-none">*Champs obligatoires </p>
+          <button type="submit" class="c-btn c-btn-primary mt-4 mb-5">Enregistrer<img class="ms-2"
               src="assets/icons/arrow.svg" alt="arrow"></button>
         </form>
       </div>

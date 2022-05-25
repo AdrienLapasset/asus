@@ -25,9 +25,6 @@
 }
 
 .c-form {
-  @include media-breakpoint-up($lg) {
-    max-width: 550px;
-  }
   .input-container {
     position: relative;
     label {
@@ -42,13 +39,15 @@
     padding: 0 40px 0 15px;
     border-radius: 20px;
     border: 1px solid $light-grey;
-    color: $blue;
     outline: 0;
     & + svg {
       position: absolute;
       top: 15px;
       right: 30px;
       stroke: $grey;
+      &.email {
+        top: 23px;
+      }
     }
     & + img {
       position: absolute;
@@ -88,9 +87,6 @@
     cursor: pointer;
     appearance: none;
     color: red;
-  }
-  .input-icon {
-    top: 23px;
   }
   .checkbox-container {
     position: relative;
