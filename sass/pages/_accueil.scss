@@ -78,10 +78,11 @@
         font-size: 14px;
       }
       button {
+        color: #092234;
         text-align: left;
         padding: 0;
-        color: $blue;
         width: fit-content;
+        text-decoration: underline;
       }
     }
     .progress-bar {
@@ -203,6 +204,7 @@
         text-align: left;
         padding: 0;
         color: $blue;
+        text-decoration: underline;
         width: fit-content;
         font-size: 14px;
       }

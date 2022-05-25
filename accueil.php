@@ -32,7 +32,9 @@ includeHeader('accueil')
             <div class="cadeau">
               <img src="assets/imgs/cadeaux/trottinette.jpg" alt="">
               Trottinette électrique
-              <aside>Encore 5 produits disponibles</aside>
+              <aside>Encore 5
+                <span class="blue-text">produits disponibles</span>
+              </aside>
               <button type="button" class="" data-bs-toggle="modal" data-bs-target="#commander">
                 Commander
               </button>
@@ -42,11 +44,13 @@ includeHeader('accueil')
             <div class="points">
               750 points
             </div>
-            <div class="dot"></div>
+            <div class="dot dark"></div>
             <div class="cadeau">
               <img src="assets/imgs/cadeaux/Zenscreen.png" alt="">
-              Ecran Zenscreen
-              <aside>Encore 5 produits disponibles</aside>
+              Zenscreen
+              <aside>Encore 5
+                <span class="blue-text">produits disponibles</span>
+              </aside>
               <button type="button" class="" data-bs-toggle="modal" data-bs-target="#commander">
                 Commander
               </button>
@@ -59,8 +63,10 @@ includeHeader('accueil')
             <div class="dot dark"></div>
             <div class="cadeau">
               <img src="assets/imgs/cadeaux/ecouteurs sans fil.jpg" alt="">
-              écouteurs sans fil
-              <aside>Encore 5 produits disponibles</aside>
+              Ecouteurs sans fil
+              <aside>Encore 5
+                <span class="blue-text">produits disponibles</span>
+              </aside>
               <button type="button" class="" data-bs-toggle="modal" data-bs-target="#commander">
                 Commander
               </button>
@@ -73,8 +79,10 @@ includeHeader('accueil')
             <div class="dot dark"></div>
             <div class="cadeau">
               <img src="assets/imgs/carte-cadeau.png" alt="">
-              Carte cadeau 50€
-              <aside>Encore 5 produits disponibles</aside>
+              Carte cadeau Illicado
+              <aside>Encore 5
+                <span class="blue-text">produits disponibles</span>
+              </aside>
               <button type="button" class="" data-bs-toggle="modal" data-bs-target="#commander">
                 Commander
               </button>
@@ -86,9 +94,8 @@ includeHeader('accueil')
             </div>
             <div class="dot dark"></div>
             <div class="cadeau">
-              <img src="assets/imgs/carte-cadeau.png" alt="">
-              Carte cadeau 50€
-              <aside>Encore 5 produits disponibles</aside>
+              <img src="assets/logos/ASUS-Business.png" alt="" style="width:200px">
+              Pack goodies
               <button type="button" class="" data-bs-toggle="modal" data-bs-target="#commander">
                 Commander
               </button>
