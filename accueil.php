@@ -30,7 +30,7 @@ includeHeader('accueil')
             </div>
             <div class="dot"></div>
             <div class="cadeau">
-              <img src="assets/imgs/cadeaux/trottinette.jpg" alt="">
+              <img src="assets/imgs/cadeaux/trottinette 2.jpg" alt="">
               Trottinette électrique
               <aside>Encore 5
                 <span class="blue-text">produits disponibles</span>
