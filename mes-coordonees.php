@@ -82,7 +82,7 @@ includeHeader('mes-coordonees')
           <button type="submit" class="c-btn c-btn-secondary">Modifier mes informations<img class="ms-2"
               src="assets/icons/arrow-blue.svg" alt="arrow-blue"></button>
         </form>
-        <a class="mt-3 mb-5 c-btn c-btn-primary">Enregirstrer une nouvelle action<img class="ms-2"
+        <a class="mt-3 mb-5 c-btn c-btn-primary">Enregistrer une nouvelle action<img class="ms-2"
             src="assets/icons/arrow.svg" alt="arrow"></a>
       </div>
     </div>

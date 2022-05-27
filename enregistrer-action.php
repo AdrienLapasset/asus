@@ -37,7 +37,7 @@ includeHeader('enregistrer-action')
           <span>Validé</span>
           <span>1 point</span>
         </div>
-        <a class="my-5 c-btn c-btn-primary">Enregirstrer une nouvelle action <img class="ms-2" src="assets/icons/arrow.svg" alt="arrow"></a>
+        <a class="my-5 c-btn c-btn-primary">Enregistrer une nouvelle action <img class="ms-2" src="assets/icons/arrow.svg" alt="arrow"></a>
         <p>Il vous reste à cumuler <span class="blue-text"> 5 points</span> avant de débloquer votre prochain cadeau ! </p>
         <div class="progress-container">
           <div class="progress-bar">

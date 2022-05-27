@@ -17,7 +17,7 @@ includeHeader('accueil')
         <div class="text-container">
           <h1 class="c-title">Bonjour Alexandre!</h1>
           <p>Il vous reste à cumuler <b class="blue-text"> 50 points</b> avant de débloquer votre prochain cadeau ! </p>
-          <a class="c-btn c-btn-primary">Enregirstrer une nouvelle action <img class="ms-2" src="assets/icons/arrow.svg"
+          <a class="c-btn c-btn-primary">Enregistrer une nouvelle action <img class="ms-2" src="assets/icons/arrow.svg"
               alt="arrow"></a>
         </div>
         <img class="img-fluid" src="assets/imgs/accueil.jpg" alt="">
@@ -30,7 +30,7 @@ includeHeader('accueil')
             </div>
             <div class="dot"></div>
             <div class="cadeau">
-              <img src="assets/imgs/cadeaux/trottinette 2.jpg" alt="">
+              <img src="assets/imgs/cadeaux/trottinette 2.png" alt="">
               Trottinette électrique
               <aside>Encore 5
                 <span class="blue-text">produits disponibles</span>
@@ -94,7 +94,7 @@ includeHeader('accueil')
             </div>
             <div class="dot dark"></div>
             <div class="cadeau">
-              <img src="assets/logos/ASUS-Business.png" alt="" style="width:200px">
+              <img src="assets/logos/ASUS-Business.png" alt="" style="width:160px">
               Pack goodies
               <button type="button" class="" data-bs-toggle="modal" data-bs-target="#commander">
                 Commander
@@ -145,66 +145,86 @@ includeHeader('accueil')
 
       <div class="cadeau-container">
         <div>
-          Ordinateur portable ASUS
+          Pack goodies
           <div class="disponible">
-            Encore 5 produits disponibles
+            Encore 5
+            <span class="blue-text">produits disponibles</span>
           </div>
           <button type="button" class="" data-bs-toggle="modal" data-bs-target="#commander">
             Commander
           </button>
         </div>
         <div class="cadeau-img">
-          <img class="img-fluid" src="assets/imgs/carte-cadeau.png" alt="">
+          <img src="assets/logos/ASUS-Business.png" alt="" style="width:200px">
+        </div>
+        150 pts
+      </div>
+      <div class="cadeau-container">
+        <div>
+          Carte cadeau Illicado
+          <div class="disponible">
+            Encore 5
+            <span class="blue-text">produits disponibles</span>
+          </div>
+          <button type="button" class="" data-bs-toggle="modal" data-bs-target="#commander">
+            Commander
+          </button>
+        </div>
+        <div class="cadeau-img">
+          <img src="assets/imgs/carte-cadeau.png" alt="">
         </div>
         250 pts
       </div>
       <div class="cadeau-container">
         <div>
-          Ordinateur portable ASUS
+          Ecouteurs sans fil
           <div class="disponible">
-            Encore 5 produits disponibles
+            Encore 5
+            <span class="blue-text">produits disponibles</span>
           </div>
           <button type="button" class="" data-bs-toggle="modal" data-bs-target="#commander">
             Commander
           </button>
         </div>
         <div class="cadeau-img">
-          <img class="img-fluid" src="assets/imgs/carte-cadeau.png" alt="">
+          <img src="assets/imgs/cadeaux/ecouteurs sans fil.jpg" alt="">
         </div>
-        250 pts
+        500 pts
       </div>
       <div class="cadeau-container">
         <div>
-          Ordinateur portable ASUS
+          Zenscreen
           <div class="disponible">
-            Encore 5 produits disponibles
+            Encore 5
+            <span class="blue-text">produits disponibles</span>
           </div>
           <button type="button" class="" data-bs-toggle="modal" data-bs-target="#commander">
             Commander
           </button>
         </div>
         <div class="cadeau-img">
-          <img class="img-fluid" src="assets/imgs/carte-cadeau.png" alt="">
+          <img src="assets/imgs/cadeaux/Zenscreen.png" alt="">
         </div>
-        250 pts
+        750 pts
       </div>
       <div class="cadeau-container">
         <div>
-          Ordinateur portable ASUS
+          Trottinette électrique
           <div class="disponible">
-            Encore 5 produits disponibles
+            Encore 5
+            <span class="blue-text">produits disponibles</span>
           </div>
           <button type="button" class="" data-bs-toggle="modal" data-bs-target="#commander">
             Commander
           </button>
         </div>
         <div class="cadeau-img">
-          <img class="img-fluid" src="assets/imgs/carte-cadeau.png" alt="">
+          <img src="assets/imgs/cadeaux/trottinette 2.png" alt="">
         </div>
-        250 pts
+        1000 pts
       </div>
-      <a class="mt-5 c-btn c-btn-primary">Enregirstrer une nouvelle action <img class="ms-2"
-          src="assets/icons/arrow.svg" alt="arrow"></a>
+      <a class="mt-5 c-btn c-btn-primary">Enregistrer une nouvelle action <img class="ms-2" src="assets/icons/arrow.svg"
+          alt="arrow"></a>
       <img src="assets/imgs/bg-home-mobile.jpg" alt="">
     </div>
   </div>
