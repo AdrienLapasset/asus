@@ -11,6 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   @include media-breakpoint-up($lg) {
+    background-position: center top;
     &.participer,
     &.connexion,
     &.creation-compte {
